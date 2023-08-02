@@ -36,18 +36,19 @@
                         <!--TODO agregar logo de lado izquiero-->
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-info">Contact</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>| 
         </nav>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Casa Cristal</h1>
-                         <h2 class="text-white-50 mx-auto mt-2 mb-5">A 3 Bedroom Luxury Villa in Tulum, Mexico. </h2>
+                       
+                        <img class="img-responsive logo-casa my-0 mx-auto" src="../static/assets/img/logo png.png"/>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A 3 Bedroom Luxury Villa in Tulum, Mexico. </h2>
                         
                     </div>
                 </div>
@@ -60,13 +61,20 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">About Casa Cristal</h2>
                         <p class="text-white-50">
-                            Casa Cristal is situated within one of the most  <strong>prestigious residential gated communities</strong>  in Tulum. This
-post-modern luxury residence offers a perfect combination of practicality and inclusivity,
-ensuring a comfortable and <strong>opulent experience</strong> that is impossible to ignore. The property showcases
-exquisite marble floors and finishes, creating an atmosphere of elegance and grandeur.
-The addition of granite countertops further enhances its overall allure and sophistication.
+                            From the moment you set foot in this property, you will be captivated by its exquisite
+                            finiches and marble flooring, which emanate sophistication and elegance in every corner. Every detail has been carefully
+                            selected to create an atmosphere of unparallel luxury.
+                           
+                            
                             
                         </p>
+                        <p class="text-white-50">
+                            Inmense yourself in the tranquility of its lushsurroundings, either from a room or in one of its pools, 
+                            the private patio or the incredible terrace with grill. 
+                            Here you wil find the eprfect place to enjoy moments of relaxation and outdoor entretainmet, 
+                            surrounded bu the natural beauty of Tulum.
+                        </p>
+                        <p class="text-white-50">Welcome to Casa Cristal.</p>
                     </div>
                 </div>
                 <img class="img-fluid" src="../static/assets/img/la privada-2.jpg" alt="..." />
@@ -85,7 +93,7 @@ The addition of granite countertops further enhances its overall allure and soph
                                 <ul>
                                     <li>Lot size 373 m2 (4,000.6 sqf)</li>
                                     <li>Construction 383.77 m2 (4,132.3 sqf)</li>
-                                    <li>3 BD-3BR</li>
+                                    <li>3 BD & 3 BR</li>
                                     <li>+ 3 Half bathrooms</li>
                                     <li>Laundryroom</li>
                                     <li>Basement</li>
@@ -196,7 +204,7 @@ The addition of granite countertops further enhances its overall allure and soph
                             <div class="overlay">
                                 <h2>Bedroom</h2>
                                 <p>
-                                   descripcion del bedroom
+                             
                                 </p>
                             </div>
                     </div>
@@ -207,7 +215,7 @@ The addition of granite countertops further enhances its overall allure and soph
                             <div class="overlay">
                                 <h2>Rooftop Reciever</h2>
                                 <p>
-                                    descripcion aqui del roof top recibidor
+                                    
                                 </p>
                             </div>
                     </div>
@@ -229,14 +237,14 @@ The addition of granite countertops further enhances its overall allure and soph
                             <div class="overlay">
                                 <h2>Bathroom</h2>
                                 <p>
-                                    details about finishes in the bathrooms
+                                    
                                 </p>
                             </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Signup-->
+        <!-- Signup
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -245,36 +253,36 @@ The addition of granite countertops further enhances its overall allure and soph
                         <h2 class="text-white mb-5">Get all the information</h2>
                         
                         <form class="form-signup" id="contactForm"  method="POST" action="{{ url_for('contact') }}">
-                            <!-- Email address input-->
-                            <div class="col input-group-newsletter">
+                            Email address input-->
+                            <!-- <div class="col input-group-newsletter">
                                 <div class="row input-row"><input class="form-control" id="nameContact" type="text" placeholder="Enter your name..." aria-label="Enter your name..." data-sb-validations="required,name" name="name"/></div>
                                 <div class="row input-row"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" name="email"/></div>
                                 <div class="row-auto input-row"><button class="btn btn-primary" id="submitButton" type="submit">Send</button></div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="nameContact:required">A name is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
+                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div> -->
                             <!-- Submit success message-->
                             <!---->
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
+                            <!-- <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3 mt-2 text-white">
                                     <div class="fw-bolder">Form submission successful!</div>
                                     <br />
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- Submit error message-->
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                            <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contact-info">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -283,7 +291,7 @@ The addition of granite countertops further enhances its overall allure and soph
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Aldea Zama, Tulum, Quintana Roo.</div>
                             </div>
                         </div>
                     </div>
@@ -293,7 +301,7 @@ The addition of granite countertops further enhances its overall allure and soph
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="mailto:lmfloress@gmail.com?subject=Casa%20Cristal%20Information%20Request">Reach out to us!</a></div>
                             </div>
                         </div>
                     </div>
@@ -303,17 +311,18 @@ The addition of granite countertops further enhances its overall allure and soph
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black-50">+52 55-2559-4059</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://www.instagram.com/casacristal.tulum/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    <a class="mx-2" href="https://wa.me/+525525594059"><i class="fab fa-whatsapp"></i></a>
                 </div>
-            </div>
+            </div>  
         </section>
         <!-- Footer-->
           <!--TODO agregar logo de lado en el centro-->
