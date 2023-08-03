@@ -403,7 +403,8 @@ button:not(:disabled),
 }
 
 .logo-casa{
-  height: 29rem;
+  
+  width: 100%;
 }
 ::-moz-focus-inner {
   padding: 0;
@@ -10992,7 +10993,8 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #fff0;
+ 
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
